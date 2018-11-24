@@ -25,7 +25,7 @@ class App extends Component {
     const postList = posts.length ? (
       posts.map(post => {
         return (
-          <div className ='post card' key ={post.id}>
+          <div className = 'post-card' key ={post.id}>
             <div className = 'card-content'>
               <span className = 'card-title'>{post.title}</span>
               <p>{post.body}</p>
@@ -34,7 +34,7 @@ class App extends Component {
         )
       })
     ) : (
-      <div className='center'>no post yet</div>)
+      <div className='center'>No post yet</div>)
 
     return (
       <div className="App">
