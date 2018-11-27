@@ -38,11 +38,13 @@ class App extends Component {
 
     return (
       <div className="App">
-      <Home />
-      <About />
-      <Contact />
-      <br/>
-      {postList}
+        <div className = "Header">
+          <Home />
+          <About />
+          <Contact />
+        </div>
+        <br />
+          {postList}
       </div>
     );
   }
