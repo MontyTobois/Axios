@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Home from './Components/Home';
-import About from './Components/About';
-import Contact from './Components/Contact';
+import Title from './Components/Title';
 import './App.css';
 import axios from 'axios'
 
@@ -39,9 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className = "Header">
-          <Home />
-          <About />
-          <Contact />
+          <Title />
         </div>
         <br />
           {postList}

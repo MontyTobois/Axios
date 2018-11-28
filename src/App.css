@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-header {
@@ -17,23 +18,27 @@
   border: solid 2px;
   padding: 10px;
   margin: 10px;
+  background-color: rgb(230, 183, 134);
   border-radius: 10px 10px 10px;
 }
 
 .card-content {
   border: solid 2px;
   padding: 10px;
+  background-color: rgb(199, 230, 134);
+
   margin: 10px;
   border-radius: 10px 10px 10px;
 }
 
 .card-title {
+text-decoration: underline;
 }
 
 .Header {
-  background-color: rgb(28, 140, 181);
-  padding: 1rem;
+  background-color: rgb(241, 117, 240);
+  padding: 2px;
   text-align: center;
-  margin: 2px;
+  margin: 1rem;
   border-radius: 10px 10px 10px;
 }
