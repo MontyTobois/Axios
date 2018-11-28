@@ -26,7 +26,6 @@
   border: solid 2px;
   padding: 10px;
   background-color: rgb(199, 230, 134);
-
   margin: 10px;
   border-radius: 10px 10px 10px;
 }
@@ -36,7 +35,7 @@ text-decoration: underline;
 }
 
 .Header {
-  background-color: rgb(241, 117, 240);
+  background-color: rgb(168, 117, 241);
   padding: 2px;
   text-align: center;
   margin: 1rem;
